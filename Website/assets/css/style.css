@@ -1,0 +1,23 @@
+body {
+	background: url('/assets/img/cover.jpg') no-repeat center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+body .container {
+    margin-top: 115px;
+}
+
+body img {
+    position: relative;
+    margin: -30px 56px 10px 56px;
+}
+
+@media screen and (max-width: 768px) {
+    body img {
+        /* display: none; */
+        margin: -30px 15px 10px 15px;
+    }
+}
